@@ -1,0 +1,24 @@
+def menu():
+    print("press 1 for creative")
+    print("press 2 for survival")
+    print("press 3 for hardcore")
+    print("press 4 for adventure")
+    print("press 5 to exit")
+
+    userinput = int(input("press 1, 2, 3, 4 or 5 >>> "))
+
+    if userinput == 1:
+      print("creative mode selected")
+    elif userinput == 2:
+        print("survival mode selected")
+    elif userinput == 3:
+        print("hardcore mode selected")
+    elif userinput == 4:
+        print("adventure mode selected")
+    elif userinput == 5:
+        print("Exiting...")
+    else:
+        print("invalid choice")
+        menu()
+    
+menu()
