@@ -1,0 +1,17 @@
+def menu():
+    print("press 1  for Domination")
+    print("press 2 for Team death match")
+    print("press 3 for Headquaters")
+
+
+    userinput = int(input("Enter 1, 2 or 3 >>>"))
+
+    if userinput == 1:
+      print("Domination mode selected")
+    elif userinput == 2:
+        print("Team death match mode selected")
+    elif userinput == 3:
+        print("Headquaters")
+
+menu()
+        
